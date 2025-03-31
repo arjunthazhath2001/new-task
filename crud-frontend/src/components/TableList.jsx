@@ -19,7 +19,7 @@ function TableList({ todos, handleOpen, handleDelete }) {
           {/* head */}
           <thead>
             <tr>
-              <th>ID</th>
+            
               <th>TITLE</th>
               <th colSpan="2" className="text-center">ACTIONS</th>
             </tr>
@@ -27,7 +27,7 @@ function TableList({ todos, handleOpen, handleDelete }) {
           <tbody>
             {todos.map((todo) => (
               <tr key={todo.id} className="hover">
-                <th>{todo.id}</th>
+                
                 <td>{todo.title}</td>
                 <td>
                   <button
